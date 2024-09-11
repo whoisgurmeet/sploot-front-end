@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif; /* Uses Arial font */
+    margin: 20px;
+  }
+  table {
+    width: 100%; /* Table takes full width of the container */
+    border-collapse: collapse; /* Collapses border to remove space between cells */
+  }
+  th, td {
+    text-align: left; /* Aligns text to the left */
+    padding: 8px; /* Adds space around text in each cell */
+    border-bottom: 1px solid #ddd; /* Adds a light grey border at the bottom of each cell */
+  }
+  th {
+    background-color: #f2f2f2; /* Light grey background for headers */
+  }
+  tr:hover {
+    background-color: #f5f5f5; /* Adds a light grey background on row hover */
+  }
+  .status-pending {
+    color: red; /* Red text for pending status */
+  }
+  .status-approved {
+    color: green; /* Green text for approved status */
+  }
+  .heading-box{
+    width: 100%;
+    background-color: black;
+    display: block;
+  }
+  
+  .heading-box>h1{
+    color: white;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+  }
+  
+  .add-leave-box{
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px;
+  }

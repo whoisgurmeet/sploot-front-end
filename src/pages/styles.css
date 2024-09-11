@@ -1,0 +1,45 @@
+.landing-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .walker-list {
+    background-color: #f8f9fa;
+  }
+  
+  .leave-page {
+    background-color: #e9ecef;
+  }
+  
+  .walker-list:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .leave-page:hover {
+    background-color: #ced4da;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  

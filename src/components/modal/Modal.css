@@ -1,0 +1,69 @@
+.modal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width: auto;
+  }
+  
+  .btn-submit {
+    background-color: #42a942;
+  }
+  
+  .btn-cancel {
+    background-color: #d9534f;
+  }
+  
+  .close {
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+  }
+  
+  .modal-content {
+    margin-bottom: 2rem;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .time-slot-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+    grid-gap: 15px; /* Adjust the spacing */
+  }
+  
+  .time-slot {
+    border: 1px solid #333; /* Change the border color */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px;
+    background-color: #ff9c09; /* Change the background color */
+    font-family: Arial, sans-serif; /* Specify the font */
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .close-class{
+    position: relative;
+    left: 0;
+    text-align: end;
+    /* font-size: larger; */
+  }
